@@ -1,0 +1,23 @@
+{
+  "name": "croo-underwriter",
+  "version": "0.1.0",
+  "description": "Agent Underwriter — a CAP agent that risk-scores proposed agent actions by fanning out paid sub-orders to specialist agents",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "echo:provider": "ts-node scripts/echo-provider.ts",
+    "echo:requester": "ts-node scripts/echo-requester.ts"
+  },
+  "dependencies": {
+    "@croo-network/sdk": "^0.2.1",
+    "dotenv": "^16.6.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.19.43",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
